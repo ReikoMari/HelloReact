@@ -1,10 +1,17 @@
 on: push
 
+permissions:
+  contents: write
+
 jobs:
   npm-build:
     runs-on: ubuntu-latest
     steps:
+    - name: 读取仓库内容
     - uses: actions/checkout@v4
+
+
+    - name: 项目打包
     - run: 
         npm install
         npm run build
