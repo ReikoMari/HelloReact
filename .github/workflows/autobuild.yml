@@ -5,9 +5,8 @@ permissions:
 
 jobs:
   npm-build:
-  name: 开始工作
+    name: 开始工作
     runs-on: ubuntu-latest
-
     steps:
     - name: 读取仓库内容
       uses: actions/checkout@v4
