@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - run: npm install
-    - run: npm run build
+    - run: 
+        npm install
+        npm run build
+    - name: githubpage
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-page
+        folder: build
