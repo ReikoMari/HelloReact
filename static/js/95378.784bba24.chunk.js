@@ -1,0 +1,2 @@
+/*! For license information please see 95378.784bba24.chunk.js.LICENSE.txt */
+"use strict";(self.webpackChunkhelloworld=self.webpackChunkhelloworld||[]).push([[95378],{95378:(e,l,o)=>{o.r(l),o.d(l,{CalciteColorPickerSwatch:()=>r,defineCustomElement:()=>s});var c=o(88012);const r=c.C,s=c.d}}]);

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.bc1a9ab3.css","mappings":"sFACA,UAGI,WAAY,CAFZ,QAAS,CACT,SAEF","sources":["index.css"],"sourcesContent":["@import 'https://js.arcgis.com/4.29/@arcgis/core/assets/esri/themes/dark/main.css';\nhtml, body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n  }"],"names":[],"sourceRoot":""}
