@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import MainMap from './main';
+import { defineCustomElements as defineMapElements } from "@arcgis/map-components/dist/loader";
+defineMapElements(window, {
+  resourcesUrl: "https://js.arcgis.com/map-components/4.29/assets",
+});
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.getElementById("root").style.height="100%";
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <MainMap></MainMap>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
